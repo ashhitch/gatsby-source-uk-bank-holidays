@@ -1,25 +1,21 @@
-# @raae/gatsby-plugin-starter
+# Uk Bank Holidays
 
-> Amazing plugin that solves everything
-
-## A message from Queen [@raae](https://twitter.com/raae)
-
-Learn how to get the most out of Gatsby and **stay updated** on the plugin by [subscribing](https://queen.raae.codes/emails/?utm_source=readme&utm_campaign=plugin-starter) to emails from yours truly.
+> Sources UK bank holidays from GOV.UK
 
 ## How to install
 
-`npm install @raae/gatsby-plugin-starter`
+`npm install ashhitch/gatsby-source-uk-bank-holidays`
 
 or
 
-`yarn add @raae/gatsby-plugin-starter`
+`yarn add ashhitch/gatsby-source-uk-bank-holidays`
 
 ## How to use
 
 ```
 module.exports = {
   plugins: [
-    `@raae/gatsby-plugin-starter`
+    `ashhitch/gatsby-source-uk-bank-holidays`
   ],
 }
 ```
@@ -40,7 +36,7 @@ To be able to have both the demo and plugin in the same repo we use [yarn worksp
 
 ### Do your thing
 
-Solve an [issue](https://github.com/queen-raae/gatsby-plugin-starter/issues) or do something else!
+Solve an [issue](https://github.com/ashhitch/gatsby-source-uk-bank-holidays/issues) or do something else!
 
 ### Create a Pull Request
 
@@ -50,8 +46,8 @@ To get your changes merged into the project create a Pull Request from your fork
 
 ### Questions, Feedback and Suggestions
 
-If you have any questions, feedback or suggestions head on over to [discussions](https://github.com/queen-raae/gatsby-plugin-starter/discussions).
+If you have any questions, feedback or suggestions head on over to [discussions](https://github.com/ashhitch/gatsby-source-uk-bank-holidays/discussions).
 
 ### Bugs
 
-If you find a bug please open an [issue](https://github.com/queen-raae/gatsby-plugin-starter/issues) and/or create a pull request to fix it.
+If you find a bug please open an [issue](https://github.com/ashhitch/gatsby-source-uk-bank-holidays/issues) and/or create a pull request to fix it.

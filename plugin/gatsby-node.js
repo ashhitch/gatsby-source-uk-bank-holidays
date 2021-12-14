@@ -1,10 +1,21 @@
-// https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/
+const fetch = require("node-fetch");
 
-exports.pluginOptionsSchema = ({ Joi }) => {
-  return Joi.object({
-    option1: Joi.string()
-      .valid("unicorn", "pirate")
-      .default("unicorn")
-      .description(`Plugin option 1`),
+exports.sourceNodes = async ({
+  actions: { createNode },
+  createContentDigest,
+}) => {
+  const response = await fetch(`https://www.gov.uk/bank-holidays.json`);
+
+  const data = await response.json();
+
+  data.response.docs.forEach((item) => {
+    createNode({
+      ...item,
+      id: item._id,
+      internal: {
+        type: "UkBankHolidays",
+        contentDigest: createContentDigest(item),
+      },
+    });
   });
 };

@@ -1,3 +1,3 @@
 module.exports = {
-  plugins: ["@raae/gatsby-plugin-starter"],
+  plugins: ["ashhitch/gatsby-source-uk-bank-holidays"],
 };

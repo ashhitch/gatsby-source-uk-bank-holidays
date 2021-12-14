@@ -5,12 +5,12 @@ const IndexPage = () => {
     <main>
       <header>
         <h1>
-          <span role="img" aria-label="Party popper emoji">
-            🎉&nbsp;
+          <span role="img" aria-label="Union Jack emoji">
+            🇬🇧&nbsp;
           </span>
-          Awsome plugin demo
-          <span role="img" aria-label="Party popper emoji">
-            &nbsp;🎉
+          UK Bank Holiday Demo
+          <span role="img" aria-label="Union Jack emoji">
+            &nbsp; 🇬🇧
           </span>
         </h1>
       </header>

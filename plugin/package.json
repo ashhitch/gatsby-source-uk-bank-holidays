@@ -1,8 +1,8 @@
 {
-  "name": "@raae/gatsby-plugin-starter",
-  "version": "1.4.0",
-  "author": "@raae",
-  "description": "An awsome plugin from @raae that will solve all your problems 🤪",
+  "name": "ashhitch/gatsby-source-uk-bank-holidays",
+  "version": "1.0.0",
+  "author": "@ashhitch",
+  "description": "Gatsby Source plugin for UK bank holidays",
   "keywords": [
     "gatsby",
     "gatsby-plugin"
@@ -16,15 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/queen-raae/gatsby-plugin-starter.git"
+    "url": "git+https://ashhitch/gatsby-source-uk-bank-holidays.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/queen-raae/gatsby-plugin-starter/issues"
+    "url": "https://ashhitch/gatsby-source-uk-bank-holidays/issues"
   },
-  "homepage": "https://github.com/queen-raae/gatsby-plugin-starter#readme",
+  "homepage": "https://ashhitch/gatsby-source-uk-bank-holidays#readme",
   "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "peerDependencies": {
     "gatsby": "^3.0.0 || ^4.0.0"
   }
