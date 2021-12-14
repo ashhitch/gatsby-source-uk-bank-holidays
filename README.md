@@ -1,4 +1,4 @@
-# Uk Bank Holidays
+# 🇬🇧 UK Bank Holidays
 
 > Sources UK bank holidays from GOV.UK
 
