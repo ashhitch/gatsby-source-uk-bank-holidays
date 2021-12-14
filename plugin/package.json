@@ -1,5 +1,5 @@
 {
-  "name": "ashhitch/gatsby-source-uk-bank-holidays",
+  "name": "gatsby-source-uk-bank-holidays",
   "version": "1.0.0",
   "author": "@ashhitch",
   "description": "Gatsby Source plugin for UK bank holidays",
@@ -25,7 +25,8 @@
   "homepage": "https://ashhitch/gatsby-source-uk-bank-holidays#readme",
   "devDependencies": {},
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "slugify": "^1.6.3"
   },
   "peerDependencies": {
     "gatsby": "^3.0.0 || ^4.0.0"
