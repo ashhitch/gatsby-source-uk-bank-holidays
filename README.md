@@ -1,4 +1,4 @@
-# 🇬🇧 UK Bank Holidays
+# 🇬🇧 Source UK Bank Holidays into Gatsby
 
 > Sources UK bank holidays from GOV.UK
 
@@ -12,11 +12,26 @@ or
 
 ## How to use
 
-```
+```js
 module.exports = {
-  plugins: [
-    `ashhitch/gatsby-source-uk-bank-holidays`
-  ],
+  plugins: [`ashhitch/gatsby-source-uk-bank-holidays`],
+};
+```
+
+Query for data
+
+```gql
+{
+  allBankHoliday {
+    nodes {
+      date
+      title
+      bunting
+      division
+      id
+      notes
+    }
+  }
 }
 ```
 
