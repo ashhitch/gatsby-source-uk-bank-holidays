@@ -1,4 +1,5 @@
 {
+  "name": "gatsby-source-uk-bank-holiday-workspace",
   "private": true,
   "workspaces": [
     "demo",
