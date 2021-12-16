@@ -4,17 +4,17 @@
 
 ## How to install
 
-`npm install ashhitch/gatsby-source-uk-bank-holidays`
+`npm install gatsby-source-uk-bank-holidays`
 
 or
 
-`yarn add ashhitch/gatsby-source-uk-bank-holidays`
+`yarn add gatsby-source-uk-bank-holidays`
 
 ## How to use
 
 ```js
 module.exports = {
-  plugins: [`ashhitch/gatsby-source-uk-bank-holidays`],
+  plugins: [`gatsby-source-uk-bank-holidays`],
 };
 ```
 
